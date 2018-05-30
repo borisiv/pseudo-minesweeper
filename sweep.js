@@ -33,7 +33,7 @@ readFile()
 		res += arr.toString().replace(/,/g, " ");
 		if (i !== A.length - 1) res += "\r\n";
 	});
-  console.log(res);
+  	console.log(res);
 	fs.writeFile('done.txt', res, 'utf8', err => {
 	  if (err) throw err;
 	  console.log('The file done.txt has been saved!');
