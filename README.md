@@ -1,0 +1,2 @@
+# pseudo-minesweeper
+Pseudo minesweeper
